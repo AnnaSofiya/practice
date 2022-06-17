@@ -352,6 +352,7 @@ h6 {
 @media (max-width: 75em) {
   .menu {
     margin-right: 0px;
+    order: 3;
     flex: 0 1 100%;
     justify-content: center;
   }
@@ -614,6 +615,11 @@ h6 {
   max-width: 1440px;
   margin: 0px;
   padding: 0px;
+}
+@media (max-width: 75em) {
+  .service__container {
+    padding: 30px 0px 0px 0px;
+  }
 }
 .service__top {
   display: flex;
