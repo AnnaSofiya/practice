@@ -243,7 +243,7 @@ h6 {
   .button__contacts {
     order: 2;
     display: flex;
-    flex: 0 1 50%;
+    flex: 0 1 45%;
     justify-content: end;
   }
 }
@@ -500,6 +500,7 @@ h6 {
     cursor: pointer;
     z-index: 99;
   }
+  
   .icon-menu span, .icon-menu::before, .icon-menu::after {
     content: "";
     transition: all 0.3s ease 0s;
